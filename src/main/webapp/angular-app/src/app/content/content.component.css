@@ -1,0 +1,7 @@
+select.form-control.first-option-selected {
+  color: red;
+}
+
+select.form-control > option {
+  color: black;
+}

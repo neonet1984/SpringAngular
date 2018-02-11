@@ -1,0 +1,13 @@
+{
+  "BOOKS": "Read books",
+  "BOOK": "Read book",
+  "LINKBOOKS": "Link to books",
+  "INVALIDTOKEN": "Token expired",
+  "UNAUTHORIZED": "You need to login",
+  "LOGIN": "Enter your login",
+  "PASSWORD": "Enter your password",
+  "INVALIDINPUTDATA": "Wrong login or password",
+  "ERRORREQUEST": "Please try again later",
+  "LOGIN": "Log in",
+  "EXIT": "Exit"
+}

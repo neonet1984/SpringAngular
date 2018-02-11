@@ -1,0 +1,22 @@
+<br>
+<br>
+<br>
+
+<div>
+  <div class="form-group">
+    <label for="login"><div [translate]="'LOGIN'"></div></label>
+    <input type="text" class="form-control" id="login" #login>
+  </div>
+  <div class="form-group">
+    <label for="pwd"><div [translate]="'PASSWORD'"></div></label>
+    <input type="password" class="form-control" id="pwd" #password>
+  </div>
+  <div *ngIf="loading">loading...</div>
+  <div style="color: red" [translate]="getKey()"></div>
+  <button [disabled]="loading" class="btn btn-primary" (click)="authenticationUser(login.value,password.value)">Submit</button>
+
+
+
+</div>
+
+

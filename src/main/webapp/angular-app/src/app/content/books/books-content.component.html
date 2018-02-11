@@ -1,0 +1,13 @@
+<span [translate]="'HELLO'"></span>
+<div class="container">
+  <div class="row">
+    <div class="container">
+      <div class="col-xs-4" *ngFor="let book of books()">
+        <strong>{{book.title}}</strong><br>
+        <img src="{{book.imageLink}}"><br>
+        {{book.description}}<br>
+        <a routerLink="/book/{{book.id}}"><span [translate]="'BOOK'"></span></a><br><br>
+      </div>
+    </div>
+  </div>
+</div>
